@@ -5,7 +5,7 @@ import img from './IMG.jpg'
 export default function Info() {
   return (
     <div className='info--wrapper'>
-        <img className='info--img' src={img}/>
+        <img className='info--img' src={img} alt='profile-image'/>
         <div className='info--content'>
           <span className='info--name'>Jaskirat Singh</span>
           <small className='info--occupation'>Frontend developer</small>
