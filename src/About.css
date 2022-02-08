@@ -1,0 +1,24 @@
+.about--wrapper{
+    display:flex;
+    justify-content: center;
+}
+.about--content{
+    display:flex;
+    flex-direction:column;
+    width: 230px;
+    background-color: rgb(31, 31, 46);
+    height: 115px;
+}
+.about--heading{
+    color: #fff;    
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 5px;   
+    margin-left: 33px; 
+}
+.about--paragraph{
+    color: rgb(179, 176, 176);
+    font-size: 10px;    
+    margin-left: 33px;
+    width: 170px;
+}
