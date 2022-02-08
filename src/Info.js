@@ -11,9 +11,9 @@ export default function Info() {
           <small className='info--occupation'>Frontend developer</small>
           <span className='info--website'>jaskiratsingh.website</span>
           <div className='info--buttons'>
-              <button className='info--button1'><span style={{fontSize: "10px",paddingRight:"2px"}} class="material-icons">
+              <button className='info--button1' onClick={(e) => {window.open('mailto:jaskiratkhanna123@gmail.com','_blank')}}><span style={{fontSize: "10px",paddingRight:"2px"}} class="material-icons">
               email</span>Email</button>
-              <button className='info--button2'><span class="iconify" data-icon="mdi:linkedin"></span>
+              <button className='info--button2' onClick={(e) => {window.open('https://www.linkedin.com/','_blank')}}><span class="iconify" data-icon="mdi:linkedin"></span>
               Linkedin</button>
         </div>
       </div>
